@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.title-page {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #243573;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+    margin-top: -1px;
+}
+
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+    margin-top: -1px;
+    margin-bottom: 40px;
+}
+
+.card-service {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #dad2d248;
+    border-radius: 3px;
+    padding: 0 2px;
+}
+
+.card-img img { 
+    padding: 15px;
+}
+
+.title-service {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    max-width: 300px;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    color: #000000ce;
+}
+
+.btn-whattsapp {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.btn-whattsapp a {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    padding: 10px 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #008000;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.btn-whattsapp a:hover {
+    background-color: #008000E8;
+}
+
+/* Responsive */
+
+@media (min-width: 390px) and (max-width: 844px) {
+    .title-page {
+        font-size: 25px;
+    }
+
+    .title-service {
+        font-size: 25px;
+    }
+
+    .btn-whattsapp a {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+    .title-page {
+        font-size: 20px;
+    }
+
+    .title-service {
+        font-size: 22px;
+    }
+
+    .btn-whattsapp a {
+        font-size: 27px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 896px) {
+    .title-page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .title-service {
+        font-size: 25px;
+    }
+
+    .btn-whattsapp a {
+        font-size: 29px;
+    } 
+}
+
+@media (min-width: 412px) and (max-width: 914px) {
+    .title-service {
+        font-size: 25px;
+    }
+}
+
